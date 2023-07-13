@@ -1,0 +1,45 @@
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background:#efb810;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: 80%;
+}
+
+
+.card button  {
+    background-color: #c54a2b; /* Color de fondo */
+    font-size: 16px; /* Tamaño de fuente más grande */
+    padding: 10px 30px; /* Mayor espacio interno */
+    border: none; /* Eliminar el borde */
+    color: rgb(15, 15, 15); /* Color del texto */
+    
+    text-align: center; /* Alinear el texto al centro */
+    text-decoration: none; /* Eliminar la decoración de texto */
+    display: inline-block; /* Mostrar como elemento en línea */
+    
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  }
+
+  .card a {
+
+    background-color: #c54a2b; /* Color de fondo */
+    border: none; /* Eliminar el borde */
+    color: rgb(15, 15, 15); /* Color del texto */
+    font-size: 20px;
+    text-align: center; /* Alinear el texto al centro */
+    text-decoration: none; /* Eliminar la decoración de texto */
+    display: inline-block; /* Mostrar como elemento en línea */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  }
+   
